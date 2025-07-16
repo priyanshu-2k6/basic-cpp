@@ -44,7 +44,7 @@ double balance::get_balance()
     return bal1;
 }
 
-// ChatGPT code:
+
 string rtrim(const string& str) {
     size_t end = str.find_last_not_of(" \t\n\r\f\v");
     return (end == string::npos) ? "" : str.substr(0, end + 1);
@@ -139,12 +139,12 @@ existing_user:
         cout<<"Welcome "<<uname<<endl;
         cout<<"Balance: $"<<user1[index].get_balance()<<endl;
         do_something:
-            cout<<"What would you like to do:\n1. Deposit/Withdraw Funds.\n2. Buy a Coffee.\n3. Exit"<<endl;
+            cout<<"What would you like to do:\n1. Deposit/Withdraw Funds.\n2. Buy a Coffee.\n3. Exit"<<endl<<"Input choice: ";
             int r,coffee=20;
             cin>>r;
             if (r==1)
             {
-                cout<<"1. Deposit"<<endl<<"2. Withdraw"<<endl<<"3. View Balance."<<endl;
+                cout<<"1. Deposit"<<endl<<"2. Withdraw"<<endl<<"3. View Balance."<<endl<<"Input choice: ";
                 cin>>r;
                 int a;
                 if (r==1)
