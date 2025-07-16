@@ -64,7 +64,7 @@ int main()
     user1[0].set_balance(1000);
 
 
-    cout<<"Hello user, Welcome to Cuckold Coffee online Services."<<endl;
+    cout<<"Hello user, Welcome to Cuppa Coffee online Services."<<endl;
     int z;
     repeat:
         cout<<"1. New User.\n2. Existing user.\n3. Exit."<<endl<<"Input choice: ";
